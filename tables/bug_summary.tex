@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\caption{Summary of bugs identified in third-party regex engines.}
+\label{tab:bug-summary}
+\small
+\begin{tabular}{lrrrrr}
+\toprule
+Engine & Issues & Bugs & Bug Rate (\%) & Fixed (\%) & Top Type \\
+\midrule
+mrab-regex & 569 & 302 & 53.1 & 85.1 & SEMANTIC \\
+PCRE2 & 340 & 147 & 43.2 & 57.8 & SEMANTIC \\
+Oniguruma & 243 & 144 & 59.3 & 41.7 & OTHER \\
+RE2 & 457 & 130 & 28.4 & 36.2 & OTHER \\
+Hyperscan & 364 & 128 & 35.2 & 43.0 & OTHER \\
+Onigmo & 92 & 54 & 58.7 & 38.9 & SEMANTIC \\
+TRE & 77 & 38 & 49.4 & 18.4 & SEMANTIC \\
+fancy-regex & 60 & 22 & 36.7 & 40.9 & SEMANTIC \\
+tiny-regex-c & 48 & 21 & 43.8 & 47.6 & SEMANTIC \\
+regexp2 & 69 & 19 & 27.5 & 31.6 & CRASH \\
+sregex & 23 & 2 & 8.7 & 100.0 & SEMANTIC \\
+\bottomrule
+\end{tabular}
+\end{table}

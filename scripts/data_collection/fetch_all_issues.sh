@@ -1,0 +1,16 @@
+python3 get_github_issues.py --owner PCRE2Project --repo pcre2 --token GITHUB_TOKEN --out PCRE2Project_pcre2_issues.ndjson
+python3 get_github_issues.py --owner kkos --repo oniguruma --token GITHUB_TOKEN --out kkos_oniguruma_issues.ndjson
+python3 get_github_issues.py --owner k-takata --repo Onigmo --token GITHUB_TOKEN --out k-takata_Onigmo_issues.ndjson
+python3 get_github_issues.py --owner google --repo re2 --token GITHUB_TOKEN --out google_re2_issues.ndjson
+python3 get_github_issues.py --owner intel --repo hyperscan --token GITHUB_TOKEN --out intel_hyperscan_issues.ndjson
+python3 get_github_issues.py --owner mrabarnett --repo mrab-regex --token GITHUB_TOKEN --out mrabarnett_mrab-regex_issues.ndjson
+python3 get_github_issues.py --owner kokke --repo tiny-regex-c --token GITHUB_TOKEN --out kokke_tiny-regex-c_issues.ndjson
+python3 get_github_issues.py --owner laurikari --repo tre --token GITHUB_TOKEN --out laurikari_tre_issues.ndjson
+python3 get_github_issues.py --owner boostorg --repo regex --token GITHUB_TOKEN --out boostorg_regex_issues.ndjson
+python3 get_github_issues.py --owner boostorg --repo xpressive --token GITHUB_TOKEN --out boostorg_xpressive_issues.ndjson
+python3 get_github_issues.py --owner rust-lang --repo regex --token GITHUB_TOKEN --out rust-lang_regex_issues.ndjson
+python3 get_github_issues.py --owner fancy-regex --repo fancy-regex --token GITHUB_TOKEN --out fancy-regex_fancy-regex_issues.ndjson
+python3 get_github_issues.py --owner BurntSushi --repo regex-automata --token GITHUB_TOKEN --out BurntSushi_regex-automata_issues.ndjson
+python3 get_github_issues.py --owner dlclark --repo regexp2 --token GITHUB_TOKEN --out dlclark_regexp2_issues.ndjson
+python3 get_github_issues.py --owner alexnask --repo ctregex.zig --token GITHUB_TOKEN --out alexnask_ctregex.zig_issues.ndjson
+python3 get_github_issues.py --owner nitely --repo nim-regex --token GITHUB_TOKEN --out nitely_nim-regex_issues.ndjson
